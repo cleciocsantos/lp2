@@ -21,3 +21,8 @@ class Pessoa:
 
     def setDataNasc(self, datanasc):
         self.datanasc = datanasc
+
+    def imprimir(self):
+        print("Nome: ", self.nome)
+        print("CPF: ", self.cpf)
+        print("Data de nascimento: ", self.datanasc)
