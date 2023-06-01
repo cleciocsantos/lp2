@@ -29,7 +29,7 @@ class Conta:
 
     def extrato(self):
         print("Número: {}\nTitular: {}\nSaldo: {}".format(
-            self.numero,self.titular, self.saldo))
+            self.numero,self.titular.nome, self.saldo))
         print("-----------------------")
 
     def transfere(self, destino, valor):
