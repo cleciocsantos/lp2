@@ -1,5 +1,5 @@
-from pessoa_ant1 import Pessoa
-from conta_ant1 import Conta
+from pessoa import Pessoa
+from conta import Conta
 
 pessoa1 = Pessoa("João", "111.111.111-11", "25/07/2003")
 pessoa2 = Pessoa("Maria", "222.222.222-22", "30/08/2007")
