@@ -1,5 +1,5 @@
-from conta import Conta
-from pessoa import Pessoa
+from conta_ant1 import Conta
+from pessoa_ant1 import Pessoa
 
 print("========== CADASTRO DE PESSOAS ==========")
 pessoas = []
