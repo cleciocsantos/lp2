@@ -1,5 +1,6 @@
 from funcionario import Funcionario
-class Gerente(Funcionario):
+from autenticavel import Autenticavel
+class Gerente(Funcionario, Autenticavel):
     def __init__(self, nome, cpf, salario, senha, qtd_funcionarios):
         #Funcionario.__init__(nome, cpf, salario)
         super().__init__(nome, cpf, salario)

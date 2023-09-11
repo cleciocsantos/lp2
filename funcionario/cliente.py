@@ -1,3 +1,4 @@
+from autenticavel import Autenticavel
 class Cliente:
     def __init__(self, nome, cpf, datanasc):
         self.nome = nome
@@ -26,3 +27,6 @@ class Cliente:
         print("Nome: ", self.nome)
         print("CPF: ", self.cpf)
         print("Data de nascimento: ", self.datanasc)
+
+    def autenticar(self, senha):
+        print("Cliente autenticado")
