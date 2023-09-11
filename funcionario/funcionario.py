@@ -1,4 +1,5 @@
-class Funcionario:
+import abc
+class Funcionario(abc.ABC):
     def __init__(self, nome, cpf, salario):
         self._nome = nome
         self._cpf = cpf
@@ -19,5 +20,6 @@ class Funcionario:
     def setSalario(self, salario):
         self._salario = salario
 
+    @abc.abstractmethod
     def getBonificacao(self):
         return self._salario * 0.1

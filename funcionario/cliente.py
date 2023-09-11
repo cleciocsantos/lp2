@@ -26,6 +26,3 @@ class Cliente:
         print("Nome: ", self.nome)
         print("CPF: ", self.cpf)
         print("Data de nascimento: ", self.datanasc)
-
-    def getBonificacao(self):
-        return 10
