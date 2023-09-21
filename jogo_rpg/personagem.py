@@ -21,7 +21,6 @@ class Personagem:
 
     def desviarAtaque(self):
         desvio = randint(1, 5) * self._destreza
-        print("O seu desvio é de", desvio)
         return desvio
 
     def getNome(self):

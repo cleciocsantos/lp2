@@ -7,7 +7,6 @@ class Elfo(Personagem):
 
     def atacar(self):
         hp = randint(3,5) * self._forca
-        print("O seu ataque vai tirar", hp, "de HP")
         return hp
 
     def desviarAtaque(self):

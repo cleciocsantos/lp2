@@ -7,7 +7,6 @@ class Anao(Personagem):
 
     def atacar(self):
         hp = randint(1,6) * self._forca
-        print("O seu ataque vai tirar", hp, "de HP")
         return hp
 
     def defender(self):
